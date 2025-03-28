@@ -24,14 +24,26 @@ HUGGINGFACE_API_TOKEN=your_token_here
 
 - `requirements.txt`: Project dependencies
 - `example.py`: Basic example of using Smolagents
+- `smol_agents.ipynb`: Interactive Jupyter notebook with multiple examples
 - `.env`: Environment variables (create this file)
 
 ## Usage
 
-Run the example script:
+### Running the Python Script
 ```bash
 python3 example.py
 ```
+
+### Running the Jupyter Notebook
+```bash
+jupyter notebook
+```
+Then open `smol_agents.ipynb` in your browser.
+
+The notebook contains three examples:
+1. Calculator Function: Creates a function for basic arithmetic operations
+2. List Operations: Demonstrates various list manipulations (duplicates, second largest, rotation)
+3. String Manipulation: Shows advanced string operations (word reversal, palindrome checking, title case)
 
 ## Resources
 
